@@ -1,0 +1,33 @@
+.card_recipe {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.containerRecipes {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.card_recipe .image {
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card_recipe h3 {
+    text-align: center;
+}
+
+.card_recipe p {
+    text-align: left;
+}
